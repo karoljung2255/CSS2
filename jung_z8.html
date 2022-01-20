@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"> 
+</head>
+<body>
+<p>
+<ol type="1">
+<font face=arial>
+<li><h1>gdzie jest wstawiany?</h1>
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <haed> a
+</haed>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż
+domyślne). 
+<li><h1>Składnia teoretyczna</h1>
+<textarea rows=8 cols=70>
+<head>
+(...)
+ <style type="text/css">
+ /* <![CDATA[ */
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ (...)
+ /* ]]> */
+ </style>
+(...)
+</head>
+</textarea>
+<li><h1>Jakie mogą być selektory?</h1>
+Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+<li><h1>Jakie mogą być cechy i wartości.</h1>
+Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy
+rozdzielone średnikami.
+</font>
+</ol>
+</BODY>
+</html>

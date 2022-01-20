@@ -1,0 +1,44 @@
+#nr1 {
+	
+	
+	width: 986px;
+	background-color: gold;
+	
+}
+#nr2 {
+	
+	width: 1086px;
+	background-color: cyan;
+	
+}
+#nr3 {
+	width: 1186px;
+	background-color: maroon;
+}
+#zdanie_pierwsze {
+	color: maroon;
+	font-size: 1.5cm;
+}
+#zdanie_drógie {
+	font-size: 1.1cm;
+}
+#wyliczenie {
+	color: purple;
+	font-size: 0.7mm;
+}
+#zdanie_trzecie {
+	color: gold;
+	font-size: 1cm;
+}
+#wyliczenie2 {
+	color: purple;
+	font-size: 8mm;
+}
+#zdanie_czwarte {
+	color: gold;
+	font-size: 9mm;
+}
+#wyliczenie3 {
+	color: cyan;
+	font-size: 7mm;
+}
