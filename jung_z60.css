@@ -1,0 +1,28 @@
+/* hover: Właściwość :hover CSS pseudo-class jest używana gdy użytkownik wchodzi w interakcję z elementem 
+ za pomocą urządzenia wskazującego, ale niekoniecznie go aktywuje. Generalnie wyzwalanie następuje gdy użytkownik
+ wskaże element kursorem, np. wskaźnikiem myszy. */
+ /* Karol Jung */
+ div#blok1_jung{
+	 background-color: cyan;
+	 width: 606px;
+ }
+ div#blok2_jung{
+	 background-color: cyan;
+	 width: 606px;
+ }
+ div#blok3_jung{
+	 background-color: cyan;
+	 width: 606px;
+ }
+ div#blok1_jung:hover{
+	 background-color: lime;
+	 font-size: 21mm
+ }
+ div#blok2_jung:hover{
+	 background-color: red;
+	 font-size: 21mm
+ }
+ div#blok3_jung:hover{
+	 background-color: orange;
+	 font-size: 21mm
+ }
